@@ -2,7 +2,11 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "_inbox",
   "attachmentFolderPath": "_system/attachments",
-  "userIgnoreFilters": [".raw/", "_system/design-system/generated/", "output/"],
+  "userIgnoreFilters": [
+    ".raw/",
+    "_system/design-system/generated/",
+    "output/"
+  ],
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": false,
   "showFrontmatter": true

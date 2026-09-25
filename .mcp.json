@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ignite-vault": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@bitbonsai/mcpvault@latest", "/Users/y0shi/workspace/ignite/ignite-docs"],
+      "env": {}
+    }
+  }
+}

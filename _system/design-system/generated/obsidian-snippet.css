@@ -1,0 +1,12 @@
+/* GENERATED from tokens.yaml — do not edit */
+.theme-light {
+  --interactive-accent: #E4572E;
+  --text-accent: #A8361A;
+  --h2-color: #A8361A;
+}
+.theme-dark {
+  --interactive-accent: #E4572E;
+  --text-accent: #FFC914;
+  --h2-color: #E4572E;
+}
+.markdown-rendered h1, .markdown-source-view .cm-header-1 { border-bottom: 3px solid #E4572E; padding-bottom: 4px; }

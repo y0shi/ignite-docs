@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ignite-docs"
+version = "0.1.0"
+description = "Build tooling for the Ignite Robotics documentation vault"
+authors = ["Joshua Reddick <reddick@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyyaml = "^6.0"
+jinja2 = "^3.1"
+markdown = "^3.6"
+weasyprint = ">=62"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

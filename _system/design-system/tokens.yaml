@@ -1,0 +1,41 @@
+# Single source of truth for every output format.
+# PLACEHOLDER values: replace once brand assets land in _inbox/.
+# After editing: python _system/design-system/build_css.py
+
+brand:
+  name: FRC 6829 Ignite Robotics
+  short_name: Ignite
+  logo: assets/logo.svg          # relative to design-system/
+  logo_mono: assets/logo-mono.svg
+
+color:
+  primary: "#E4572E"             # placeholder flame orange
+  primary_dark: "#A8361A"
+  accent: "#FFC914"
+  ink: "#1B1B1E"
+  muted: "#5F6368"
+  surface: "#FFFFFF"
+  surface_alt: "#F4F2EF"
+  border: "#DAD6D1"
+  dark_surface: "#16161A"
+  dark_ink: "#ECEAE6"
+  info: "#2F6FDE"
+  success: "#2E9E5B"
+  warning: "#E3A008"
+  danger: "#C62828"
+
+font:
+  heading: "Inter, 'Helvetica Neue', Arial, sans-serif"
+  body: "Inter, 'Helvetica Neue', Arial, sans-serif"
+  mono: "'JetBrains Mono', Menlo, monospace"
+  base_size_pt: 10.5             # print
+  base_size_px: 16               # screen
+
+space:
+  unit_px: 8
+  radius_px: 6
+
+print:
+  page_size: Letter
+  margin: 0.75in
+  footer_text: "FRC 6829 Ignite Robotics"

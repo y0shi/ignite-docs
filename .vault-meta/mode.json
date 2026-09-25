@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "mode": "generic",
+  "configured_at": "2026-09-24T00:00:00Z",
+  "config": {
+    "generic": {
+      "sources_folder": "3-resources/knowledge-graph/sources/",
+      "entities_folder": "3-resources/knowledge-graph/entities/",
+      "concepts_folder": "3-resources/knowledge-graph/concepts/",
+      "sessions_folder": "3-resources/knowledge-graph/sessions/"
+    }
+  }
+}

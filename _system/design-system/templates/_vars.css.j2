@@ -1,0 +1,10 @@
+:root {
+{%- for k, v in color.items() %}
+  --ig-{{ k | replace('_', '-') }}: {{ v }};
+{%- endfor %}
+  --ig-font-heading: {{ font.heading }};
+  --ig-font-body: {{ font.body }};
+  --ig-font-mono: {{ font.mono }};
+  --ig-space: {{ space.unit_px }}px;
+  --ig-radius: {{ space.radius_px }}px;
+}

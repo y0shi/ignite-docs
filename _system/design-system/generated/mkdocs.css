@@ -1,0 +1,37 @@
+/* GENERATED from tokens.yaml — do not edit */
+:root {
+  --ig-primary: #E4572E;
+  --ig-primary-dark: #A8361A;
+  --ig-accent: #FFC914;
+  --ig-ink: #1B1B1E;
+  --ig-muted: #5F6368;
+  --ig-surface: #FFFFFF;
+  --ig-surface-alt: #F4F2EF;
+  --ig-border: #DAD6D1;
+  --ig-dark-surface: #16161A;
+  --ig-dark-ink: #ECEAE6;
+  --ig-info: #2F6FDE;
+  --ig-success: #2E9E5B;
+  --ig-warning: #E3A008;
+  --ig-danger: #C62828;
+  --ig-font-heading: Inter, 'Helvetica Neue', Arial, sans-serif;
+  --ig-font-body: Inter, 'Helvetica Neue', Arial, sans-serif;
+  --ig-font-mono: 'JetBrains Mono', Menlo, monospace;
+  --ig-space: 8px;
+  --ig-radius: 6px;
+}
+:root, [data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--ig-primary);
+  --md-primary-fg-color--dark: var(--ig-primary-dark);
+  --md-accent-fg-color: var(--ig-accent);
+  --md-typeset-a-color: var(--ig-primary-dark);
+  --md-text-font: Inter, 'Helvetica Neue', Arial, sans-serif;
+  --md-code-font: 'JetBrains Mono', Menlo, monospace;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--ig-primary);
+  --md-default-bg-color: var(--ig-dark-surface);
+  --md-typeset-a-color: var(--ig-accent);
+}
+.md-typeset h1, .md-typeset h2, .md-typeset h3 { font-family: var(--ig-font-heading); font-weight: 700; }
+.md-typeset .admonition, .md-typeset details { border-radius: var(--ig-radius); }

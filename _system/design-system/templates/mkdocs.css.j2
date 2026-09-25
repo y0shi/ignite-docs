@@ -1,0 +1,17 @@
+/* GENERATED from tokens.yaml — do not edit */
+{% include '_vars.css.j2' %}
+:root, [data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--ig-primary);
+  --md-primary-fg-color--dark: var(--ig-primary-dark);
+  --md-accent-fg-color: var(--ig-accent);
+  --md-typeset-a-color: var(--ig-primary-dark);
+  --md-text-font: {{ font.body }};
+  --md-code-font: {{ font.mono }};
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--ig-primary);
+  --md-default-bg-color: var(--ig-dark-surface);
+  --md-typeset-a-color: var(--ig-accent);
+}
+.md-typeset h1, .md-typeset h2, .md-typeset h3 { font-family: var(--ig-font-heading); font-weight: 700; }
+.md-typeset .admonition, .md-typeset details { border-radius: var(--ig-radius); }

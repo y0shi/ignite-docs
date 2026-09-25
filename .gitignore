@@ -1,0 +1,12 @@
+# Obsidian per-device state
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# Build output
+output/
+__pycache__/
+*.pyc
+.venv/
+
+.DS_Store

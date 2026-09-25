@@ -17,6 +17,6 @@ What "done" looks like.
 - [ ]
 
 ## Sources / research
-- [[3-resources/knowledge-graph/index|Knowledge graph]]
+- [[wiki/index|Knowledge graph]]
 
 ## Log

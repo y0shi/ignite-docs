@@ -9,13 +9,13 @@ output format. Fully separate from `../docs` (ignition-labs); programming curric
 | Path | Holds | Rule |
 |---|---|---|
 | `_inbox/` | Quick capture, brand assets | New notes default here. Triage often. |
+| `wiki/` | Knowledge graph: wiki-ingest output | Plugin-owned; see below |
 | `_research/` | Research drops: clippings, PDFs, repo notes | Staged to `.raw/` by `ingest-inbox.sh` |
 | `.raw/` | Immutable ingest sources + `.manifest.json` | Never edit sources. Hidden in Obsidian. |
 | `1-projects/<name>/` | Time-boxed doc efforts with a deliverable | Start from `project-brief` template |
 | `2-areas/robot-engineering/` | Mech, electrical, build, hardware | Ongoing, no deadline |
 | `2-areas/team-operations/` | Onboarding, mentors, process, strategy/scouting | |
 | `2-areas/business-outreach/` | Fundraising, sponsors, outreach, awards | |
-| `3-resources/knowledge-graph/` | wiki-ingest output | See mapping below |
 | `3-resources/references/` | Hand-written reference notes | |
 | `4-archives/<year>/` | Finished projects, retired docs | |
 | `5-publish/{site,pdf,slides}/` | **The only folder that produces output** | Never write here unless Josh asks |
@@ -26,16 +26,8 @@ finished output → copy into `5-publish/` when asked.
 
 ## Knowledge graph (claude-obsidian plugin)
 
-The claude-obsidian skills (`wiki-ingest`, `wiki-query`, `wiki-lint`, `save`, `autoresearch`) assume a `wiki/` root.
-**In this vault `wiki/` means `3-resources/knowledge-graph/`.** Always apply this mapping:
-
-| Plugin path | This vault |
-|---|---|
-| `wiki/index.md`, `wiki/hot.md`, `wiki/log.md` | `3-resources/knowledge-graph/{index,hot,log}.md` |
-| `wiki/sources/` | `3-resources/knowledge-graph/sources/` |
-| `wiki/entities/` | `3-resources/knowledge-graph/entities/` |
-| `wiki/concepts/` | `3-resources/knowledge-graph/concepts/` |
-| `.raw/` | `.raw/` (unchanged) |
+`wiki/` is the plugin's native layout (`index.md`, `hot.md`, `log.md`, `sources/`, `entities/`, `concepts/`).
+It sits at the vault root, outside PARA, because the claude-obsidian skills hardcode that path. Don't move it.
 
 Mode is `generic` (`.vault-meta/mode.json`). Do not switch to the plugin's `para` mode: it would file research
 into `wiki/areas/` and mix it with authored docs. Ingested notes never go into `2-areas/`. Area docs link *to*

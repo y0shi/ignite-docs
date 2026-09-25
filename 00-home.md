@@ -15,7 +15,7 @@ FRC 6829 Ignite Robotics documentation vault.
 - [[2-areas/business-outreach/README|Business & Outreach]]
 
 ## Resources
-- [[3-resources/knowledge-graph/index|Knowledge graph]] — ingested research
+- [[wiki/index|Knowledge graph]] — ingested research
 - [[3-resources/references/README|References]] — hand-curated
 
 ## Publish

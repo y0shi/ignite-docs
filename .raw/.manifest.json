@@ -1,1 +1,53 @@
-{}
+{
+  "sources": {
+    ".raw/2026-09-25/frc-electrical-best-practices-2027-systemcore.md": {
+      "hash": "6e7075b5786383179f6633bd30938727",
+      "ingested_at": "2026-09-25",
+      "pages_created": [
+        "wiki/sources/FRC-Electrical-Best-Practices-2027-SystemCore.md",
+        "wiki/entities/SystemCore.md",
+        "wiki/entities/CANivore.md",
+        "wiki/entities/VH-109 Radio.md",
+        "wiki/entities/REV Power Distribution Hub.md",
+        "wiki/entities/CTR Electronics.md",
+        "wiki/entities/WPILib.md",
+        "wiki/entities/Chief Delphi.md",
+        "wiki/concepts/CAN Bus Wiring.md",
+        "wiki/concepts/Multi-Bus CAN Architecture.md",
+        "wiki/concepts/CAN FD.md",
+        "wiki/concepts/Frame Isolation.md",
+        "wiki/concepts/Wire and Breaker Sizing.md",
+        "wiki/concepts/FRC Battery Management.md",
+        "wiki/concepts/Brownout.md",
+        "wiki/concepts/Radio Power Redundancy.md",
+        "wiki/concepts/Connector and Crimp Quality.md",
+        "wiki/concepts/2027 FRC Rule Changes.md"
+      ],
+      "pages_updated": [
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    ".raw/2026-09-25/capture-121700.md": {
+      "hash": "ee62722d766355a67373ede7366c91bc",
+      "ingested_at": "2026-09-25",
+      "pages_created": [],
+      "pages_updated": [],
+      "note": "capture drain; single YouTube URL resolved to crimp-connections-fail-up-or-down-2026-09-25.md"
+    },
+    ".raw/2026-09-25/crimp-connections-fail-up-or-down-2026-09-25.md": {
+      "hash": "e35d6efed58cce389fdd1eb3fc374d69",
+      "ingested_at": "2026-09-25",
+      "pages_created": [
+        "wiki/sources/Silver-Cymbal-Crimp-Seam-Up-or-Down.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Connector and Crimp Quality.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    }
+  }
+}

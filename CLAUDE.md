@@ -9,6 +9,7 @@ output format. Fully separate from `../docs` (ignition-labs); programming curric
 | Path | Holds | Rule |
 |---|---|---|
 | `_inbox/` | Quick capture, brand assets | New notes default here. Triage often. |
+| `_inbox/capture.md` | Running list of notes and links | Never move or delete. Content below the `capture:start` marker is drained by `ingest-inbox.sh` |
 | `wiki/` | Knowledge graph: wiki-ingest output | Plugin-owned; see below |
 | `_research/` | Research drops: clippings, PDFs, repo notes | Staged to `.raw/` by `ingest-inbox.sh` |
 | `.raw/` | Immutable ingest sources + `.manifest.json` | Never edit sources. Hidden in Obsidian. |
@@ -33,7 +34,7 @@ Mode is `generic` (`.vault-meta/mode.json`). Do not switch to the plugin's `para
 into `wiki/areas/` and mix it with authored docs. Ingested notes never go into `2-areas/`. Area docs link *to*
 knowledge-graph notes as their sources.
 
-Flow: drop files in `_research/` (or `_inbox/`) → `_system/scripts/ingest-inbox.sh` → "ingest all new sources in .raw/".
+Flow: drop files in `_research/` (or `_inbox/`, or jot lines in `_inbox/capture.md`) → `_system/scripts/ingest-inbox.sh` → "ingest all new sources in .raw/".
 
 ## Frontmatter schema
 
